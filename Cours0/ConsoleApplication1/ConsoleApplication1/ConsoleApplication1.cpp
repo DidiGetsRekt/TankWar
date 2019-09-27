@@ -8,72 +8,109 @@
 #include <chrono>
 
 
-int appel(int s){
-	s++;
-	return 0;
-	}
+//int appel(int s){
+//	s++;
+//	return 0;
+//	}
+//
+//Vec3 incrX(Vec3 _in) { // Ajouter & entre Vec3 et _in pour faire une reference et que le calcul sorte de la struct
+//	_in.x++;
+//	return _in;
+//}
+//Vec3 StackOverflow(Vec3 _in) {
+//	Vec3 temp = _in;
+//	temp.y++;
+//	return StackOverflow(temp);
+//}
 
-Vec3 incrX(Vec3 _in) { // Ajouter & entre Vec3 et _in pour faire une reference et que le calcul sorte de la struct
-	_in.x++;
-	return _in;
+int Strlen(const char * src) {
+	//return len
+	//int indexbase = *src;
+	int len = 0;
+	while (*src != 0) {
+		src++;
+		len++;
+	}
+	//int len = (indexbase - *src);
+	return len  ;
 }
-Vec3 StackOverflow(Vec3 _in) {
-	Vec3 temp = _in;
-	temp.y++;
-	return StackOverflow(temp);
+
+void Strcpy(char *dest, const char *src) {
+	//put copy in dest
+	int index = 0;
+	
+	
+	while (index < Strlen(src)) {
+		dest[index] = src[index];
+		index++;
+	};
+	
+
 }
 int main()
 {
-   // std::cout << "Hello World!\n"; 
+	// std::cout << "Hello World!\n"; 
 
-	//int foo = 0;
-	//const char * label = "sapin";
-	//const char label2[6] = { 's','a','p','i','n', 0 }; //0 très important!!! Finit le tableau
-	//printf("Hello world this is a test: %d label : %s\n", foo, label);
-	//printf("Hello world this is a test: label2 : %s\n", label2);
-	//Vec3 toto = {1,2,3};
-	//incrX(toto);
-	//printf("x : %f", toto.x);
-	//int i = 66;
-	//i++;
-	//Vec3 Bob = { 1,2,3 };
-	//Bob = StackOverflow(Bob);
-	//printf("val x: %f\n, bob.x");
+	 //int foo = 0;
+	 //const char * label = "sapin";
+	 //const char label2[6] = { 's','a','p','i','n', 0 }; //0 très important!!! Finit le tableau
+	 //printf("Hello world this is a test: %d label : %s\n", foo, label);
+	 //printf("Hello world this is a test: label2 : %s\n", label2);
+	 //Vec3 toto = {1,2,3};
+	 //incrX(toto);
+	 //printf("x : %f", toto.x);
+	 //int i = 66;
+	 //i++;
+	 //Vec3 Bob = { 1,2,3 };
+	 //Bob = StackOverflow(Bob);
+	 //printf("val x: %f\n, bob.x");
 
-	Vec3 VecTab[3];
-	VecTab[0]= {1,2,3};
-	VecTab[1]= {4,5,6};
-	VecTab[2]= {7,8,9};
-	
-	printf("v0x %f\n", VecTab[0].x);
+	 //Vec3 VecTab[3];
+	 //VecTab[0]= {1,2,3};
+	 //VecTab[1]= {4,5,6};
+	 //VecTab[2]= {7,8,9};
+	 //
+	 //printf("v0x %f\n", VecTab[0].x);
 
-	Vec3 * t0 = 0;
-	Vec3 * t1 = nullptr;
-	Vec3 * t2 = &VecTab[1];
+	 //Vec3 * t0 = 0;
+	 //Vec3 * t1 = nullptr;
+	 //Vec3 * t2 = &VecTab[1];
 
-	(*t2).y = 777; //Change valeur du pointeur
-	t2->y = 888; //pareil
-	t2++; // ptr+1 => *ptr+= SizeOf(T)
-	Vec3* iter = &VecTab[0];
-	int i = 0;
-	for (i = 0; i < 3; ++i) {
-		printf("val vec x: %d \n", iter->x);
-		iter++;
-	}
-	int _i = 0;
-	auto start = std::chrono::system_clock::now();
-	int * bigBlock = (int*)malloc(1024 * 1024 * 1024);
-	for (int k = 0; k < 256 * 1024 * 1024; ++k) {
-		bigBlock[k] = 0xdeadbeef;
-	}
+	 //(*t2).y = 777; //Change valeur du pointeur
+	 //t2->y = 888; //pareil
+	 //t2++; // ptr+1 => *ptr+= SizeOf(T)
+	 //Vec3* iter = &VecTab[0];
+	 //int i = 0;
+	 //for (i = 0; i < 3; ++i) {
+	 //	printf("val vec x: %d \n", iter->x);
+	 //	iter++;
+	 //}
+	 //int _i = 0;
+	 //auto start = std::chrono::system_clock::now();
+	 //int * bigBlock = (int*)malloc(1024 * 1024 * 1024);
+	 //for (int k = 0; k < 256 * 1024 * 1024; ++k) {
+	 //	bigBlock[k] = 0xdeadbeef;
+	 //}
 
-	printf("beef ? : %x \n", bigBlock[1024*1024]);
+	 //printf("beef ? : %x \n", bigBlock[1024*1024]);
 
-	auto end = std::chrono::system_clock::now();
+	 //auto end = std::chrono::system_clock::now();
 
-	auto millis = std::chrono::duration_cast<std::chrono::milliseconds>(end-start).count();
-	printf("time ? : %d\n", millis);
+	 //auto millis = std::chrono::duration_cast<std::chrono::milliseconds>(end-start).count();
+	 //printf("time ? : %d\n", millis);
+	 //Vec3 Tableau[16];
+	 //Vec3 *Tableau0 = (Vec3*)malloc(sizeof(Vec3) * 16); //en C pur
+	 //Vec3 *Tableau1 = (Vec3*)calloc(sizeof(Vec3), 16); //en C pur
+	 //Vec3 *Tableau1 = new Vec3[16]; // en C++
+	 //Vec3 *UnSeulVec = new Vec3(); // c++ alloc dynamique
+	 //Vec3 UnSeulVecAussiMaisSurLeTas = Vec3(); //c++ alloc statique
 
+
+	const char * source = "mon lapin est dodu";
+	char * dest = (char*)calloc(1024, sizeof(char));
+	Strcpy(dest, source);
+
+	printf("dest val: %s len:%d \n",dest, Strlen(source));
 }
 
 

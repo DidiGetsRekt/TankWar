@@ -2,11 +2,36 @@
 //
 
 #include "pch.h"
-#include <iostream>
+//#include <iostream>
+#include <cstdlib>
+#include <cstdio>
 
+
+int appel(int s){
+	s++;
+	return 0;
+	}
+
+Vec3 incrX(Vec3 _in) { // Ajouter & entre Vec3 et _in pour faire une reference et que le calcul sorte de la struct
+	_in.x++;
+	return _in;
+}
 int main()
 {
-    std::cout << "Hello World!\n"; 
+   // std::cout << "Hello World!\n"; 
+
+	int foo = 0;
+	const char * label = "sapin";
+	const char label2[6] = { 's','a','p','i','n', 0 }; //0 très important!!! Finit le tableau
+	printf("Hello world this is a test: %d label : %s\n", foo, label);
+	printf("Hello world this is a test: label2 : %s\n", label2);
+	Vec3 toto = {1,2,3};
+	incrX(toto);
+	printf("x : %f", toto.x);
+	int i = 66;
+	i++;
+
+
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

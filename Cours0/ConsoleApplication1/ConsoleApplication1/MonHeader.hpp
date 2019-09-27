@@ -3,9 +3,9 @@
 
 
 struct Vec3 {
-	float x;
-	float y;
-	float z;
+	int x;
+	int y;
+	int z;
 };
 
 /*typedef struct Vec3 {

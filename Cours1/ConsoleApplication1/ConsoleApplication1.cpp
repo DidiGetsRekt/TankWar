@@ -174,11 +174,30 @@ int add4(int a, int b) {
 	
 }
 
+int sub(int a, int b) {
+	if (a == 0) return -b;
+	if (b == 0) return a;
+	if (b > 0) return sub(a,b-1) -1;
+	if (b < 0) return sub(a, b+1) +1;
+
+}
+
+int mul(int a, int b) {
+	if (a == 0) return 0;
+	if (b == 0) return 0;
+	//if (a == 1) return b;
+	//if (b == 1) return a;
+	//if (a == -1) return -b;
+	//if (b == -1) return -a;
+	if(b<0)return mul(a, b + 1) - a;
+	else if(b>0)return mul(a, b - 1) + a;
+}
+
 void TestRec() {
 	int i = 0;
 	int doo = add3(2, 2);
 	int foo = add4(10, -2);
-
+	int hoo = mul(-2, 5);
 }
 
 

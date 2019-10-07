@@ -193,11 +193,113 @@ int mul(int a, int b) {
 	else if(b>0)return mul(a, b - 1) + a;
 }
 
+int Div(int a, int b) {
+	if (a < b && a >0) return 0;
+	
+	if (a == 0) return 0;
+	//if (b == 0) return 0; CRASH SALE
+	if (b < 0) return -Div(a, -b);
+	if (a < 0) return -Div(-a, b);
+	if (b > 0) return 1 + Div(a - b, b);
+}
+int Mod(int a, int b) {
+	if (a < b && a >0) {
+		
+		return a ;
+	
+	};
+
+	if (a == 0) return 0;
+	// if (b == 0) return 0; CRASH SALE
+	if (b < 0) return -Mod(a, -b);
+	if (a < 0) return -Mod(-a, b);
+	if (b > 0) return Mod(a - b, b);
+
+}
+
+int Strlen_Rec(char * str) {
+	if (*str == 0) return 0;
+	return 1 + Strlen_Rec(str + 1);
+}
+
+void Strcpy_Rec(char *dest, char* src) {
+	
+
+	if (*dest == 0 && *src == 0) return;
+	else *dest = *src;
+	return Strcpy_Rec(dest + 1, src + 1);
+}
+void ZeroMemory(char* dst, int size) {
+	if (size == 0) return;
+	*dst = 0;
+	return ZeroMemory(dst+1, size-1);
+}
+
+void MemCpy(char* dst,char* src, int size) {
+	if (size == 0) return;
+	*dst = *src;
+	return MemCpy(dst + 1,src+1, size - 1);
+}
+int Strcmp_Rec(char *str1, char* str2) {
+	if (*str1 == 0 && *str2 == 0) return 0;
+	else if (*str1 > *str2) return -1;
+	else if (*str1 < *str2) return 1;
+	
+	
+	return Strcmp_Rec(str1+1,str2+1);
+}
+
+void StrcatRec(char* str1, char* str2){
+	if (*str2 == 0) return;
+	if (*str1 == 0) {
+		*str1 = *str2;
+		return StrcatRec(str1 + 1, str2+1);
+	}
+	return StrcatRec(str1 + 1, str2);
+}
+
+char* StrChrRec(char * str, char tok) {
+	if(*str == 0 )return nullptr;
+	if (*str == tok) return str;
+	return StrChrRec(str + 1, tok);
+	
+
+}
+
 void TestRec() {
 	int i = 0;
 	int doo = add3(2, 2);
 	int foo = add4(10, -2);
 	int hoo = mul(-2, 5);
+	int joo = Div(15, 7);
+	int koo = Mod(23, 5);
+	char str[32] = "Misaka Mikoto";
+	int len = Strlen_Rec(str);
+	char src[32] = "Aleister Crowley";
+	char dest[32] = "Conronzon";
+	Strcpy_Rec(dest, src);
+	printf("%s", dest);
+	int szBuf = 32;
+	char * buffer = (char*)malloc(szBuf);
+	ZeroMemory(buffer, szBuf);
+	MemCpy(buffer, buffer, szBuf);
+
+	char Touma[32] = "Kamijou Touma";
+	char KnT[32] = "Kamijou Touma";
+	char Kakeru[32] ="Kamisato Kakeru";
+	char Kami[32] = "Kami";
+
+	int equal = Strcmp_Rec(Touma, KnT);
+	int enemy = Strcmp_Rec(Touma, Kakeru);
+	int God = Strcmp_Rec(Touma, Kami);
+	
+	char TwoToumas[32] = "";
+	StrcatRec(Touma, KnT);
+	printf("%s",Touma);
+
+	char TheT = 'T';
+	char* Pos = StrChrRec(Touma, TheT);
+
 }
 
 

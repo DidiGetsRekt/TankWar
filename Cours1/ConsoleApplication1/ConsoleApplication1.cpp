@@ -250,12 +250,16 @@ int Strcmp_Rec(char *str1, char* str2) {
 }
 
 void StrcatRec(char* str1, char* str2){
-	if (*str2 == 0) return;
-	if (*str1 == 0) {
+	if (*str1 == 0 && *str2 == 0) return;
+	else if (*str2 == 0) {
+		*str1 = *str2;
+		return StrcatRec(str1, str2);
+	}
+	else if (*str1 == 0) {
 		*str1 = *str2;
 		return StrcatRec(str1 + 1, str2+1);
 	}
-	return StrcatRec(str1 + 1, str2);
+ 	return StrcatRec(str1 + 1, str2);
 }
 
 char* StrChrRec(char * str, char tok) {
@@ -265,7 +269,41 @@ char* StrChrRec(char * str, char tok) {
 	
 
 }
+bool StartsWith(const char * s0, const char *s1) {
+	if (*s0 == 0 && *s1 != 0)
+		return false;
+	if (*s1 == 0)
+		return true;
+	if (*s0 != *s1)
+		return false;
+	else
+		return StartsWith(s0 + 1, s1 + 1);
+}
+char* StrStrRec(char * src, char * tok) {
+	if (*src == 0)return nullptr;
+	static char *pos1 = src;
+	if (*tok == 0) return /*src-Strlen_Rec(tok)*/pos1;
+	if (*src == *tok) {  return StrStrRec(src + 1, tok + 1); }
+	//else if(tok !=0) return StrStrRec(src , tok -1);
+	
+	static char * pos2 = tok;
+	
+	return StrStrRec(src + 1, tok);
 
+
+}
+const char* _StrStr(const char * src, const char * tok) {
+	if (StartsWith(src, tok))
+		return src;
+	else return (_StrStr(src + 1, tok));
+
+}
+int StrCmpRec(const char* s0, const char * s1) {
+	if (*s0 == 0 && *s1 == 0)return 0;
+	else if (*s0 < *s1) return 1;
+	else if (*s0 > *s1) return -1;
+	return StrCmpRec(s0 + 1, s1 + 1);
+}
 void TestRec() {
 	int i = 0;
 	int doo = add3(2, 2);
@@ -294,11 +332,21 @@ void TestRec() {
 	int God = Strcmp_Rec(Touma, Kami);
 	
 	char TwoToumas[32] = "";
-	StrcatRec(Touma, KnT);
+	//StrcatRec(Touma, KnT);
 	printf("%s",Touma);
 
 	char TheT = 'T';
 	char* Pos = StrChrRec(Touma, TheT);
+	char SoGeBu[64] = "I'll destroy that illusive illusion of yours!";
+	char Gensou[32] = "illusion";
+	//char* Pos2 = StrStrRec(SogeBu, Gensou);
+
+	char trash[200];
+	//memset(trash, 0xcd, 200);
+	//strcpy_s(trash, "sapin");
+	//StrcatRec(trash, Gensou);
+	_StrStr(SoGeBu, Gensou);
+	
 
 }
 

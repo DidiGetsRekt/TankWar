@@ -56,6 +56,27 @@ int main()
 
 	}
 	printf("gud");
+
+	{
+		IntArray t(1);
+		t.set(0, 5);
+		t.set(1, 6);
+		t.set(2, 10);
+		
+
+		t.searchposition(1) == 0;
+		t.searchposition(5) == 0;
+		t.searchposition(6) == 1;
+		t.searchposition(8) == 2;
+		t.searchposition(12) == 3;
+		t.Remove(t[1]);
+
+		IntArray d(16);
+		d.FillWithRandom(16);
+		d.sort();
+		int i = 0;
+	}
+
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

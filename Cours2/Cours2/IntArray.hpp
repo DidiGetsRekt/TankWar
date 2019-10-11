@@ -62,13 +62,16 @@ public:
 	void push_first(int elem);
 
 	void insert(int pos, int elem) {
-		Ensure(curSize + 1);
+		Ensure((pos>= curSize)  ? (curSize + 1): (pos+1));
 		for (int i = curSize; i > pos; i--)
 		{
 			data[i] = data[i - 1];
 		}
 		data[pos] = elem;
-		curSize += 1;
+		if (pos < curSize)
+			curSize += 1;
+		else if (pos >= curSize)
+			curSize = pos+1;
 	}
 
 	int operator()(int pos) {

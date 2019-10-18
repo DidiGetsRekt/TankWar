@@ -6,12 +6,40 @@
 #include "Util.hpp"
 #include <iostream>
 #include "List.hpp"
+#include "Tree.hpp"
 
+void testFloatTree() {
+	FloatTree * tree = new FloatTree();
+	Node<float> * leaf = new Node<float>(8);
+	leaf->insert(4);
+	leaf->insert(300);
+	leaf->insert(19);
+	leaf->insert(5);
+	leaf->insert(80);
+	bool d = leaf->Contains(6);
+	leaf->remove(19);
+	tree->root = leaf;
+	tree->dfsPrint();
+	int i = 0;
+}
+
+void TestIntList() {
+	IntList *  l = new IntList(8);
+	l->Append(5);
+	l->Append(3);
+	l = l->Concat(10);
+	bool c = l->Contains(5);
+	l->Remove(5);
+	c = l->Contains(5);
+	int j = l->Length();
+	c = l->Contains(666);
+	int i = 0;
+}
 int main()
 {
 	
-
-	IntArray A(1024);
+	testFloatTree();
+	/*IntArray A(1024);
 	A.FillWithRandom(1024);
 
 	A.InSort();
@@ -21,13 +49,11 @@ int main()
 	//A.OneSort();
 	double t1 = TimeUtils::getTimestamp();
 	printf("%f     ", (t1-t0));
-	int i = 0;
-	TestIntList();
+	int i = 0;*/
+	//TestIntList();
 }
 
-void TestIntList() {
-	IntList l(8);
-}
+
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
 // Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage

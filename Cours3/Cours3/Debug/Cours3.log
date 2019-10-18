@@ -1,2 +1,4 @@
 ﻿  Cours3.cpp
+c:\workspace\hae_diwan_gp2\cours3\cours3\list.hpp(51): warning C4715: 'List<int>::Contains' : les chemins de contrôle ne retournent pas tous une valeur
+Debug\Util.obj : warning LNK4042: objet spécifié plus d'une fois ; définitions supplémentaires ignorées
   Cours3.vcxproj -> C:\WORKSPACE\hae_diwan_gp2\Cours3\Cours3\Debug\Cours3.exe

@@ -1,0 +1,37 @@
+﻿  App.cpp
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(42): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(43): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(44): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(45): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(46): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(47): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(59): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(61): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(71): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(72): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(73): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(182): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(210): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(210): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(212): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(215): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(223): warning C4244: 'argument' : conversion de 'double' en 'size_t', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(227): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(256): warning C4244: 'argument' : conversion de 'double' en 'size_t', perte possible de données
+  App.vcxproj -> C:\WORKSPACE\hae_diwan_gp2\Cours5\App\Debug\App.exe

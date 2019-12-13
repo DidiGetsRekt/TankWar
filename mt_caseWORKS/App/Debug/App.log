@@ -1,0 +1,25 @@
+﻿  Entity.cpp
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\fadingparticle.h(18): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(33): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(34): warning C4305: '=' : troncation de 'double' à 'float'
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(45): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(46): warning C4305: '=' : troncation de 'double' à 'float'
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(70): warning C4305: '=' : troncation de 'double' à 'float'
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(86): warning C4305: '=' : troncation de 'double' à 'float'
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(100): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(157): warning C4065: l'instruction switch contient 'default' mais aucune étiquette 'case'
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(163): warning C4065: l'instruction switch contient 'default' mais aucune étiquette 'case'
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(212): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(213): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(217): warning C4244: '-=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(218): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(222): warning C4244: '-=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(223): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(227): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(228): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\workspace\hae_diwan_gp2\mt_caseworks\app\entity.cpp(282): warning C4715: 'Entity::getStateName' : les chemins de contrôle ne retournent pas tous une valeur
+  App.vcxproj -> C:\WORKSPACE\hae_diwan_gp2\mt_caseWORKS\App\Debug\App.exe

@@ -24,9 +24,6 @@
     <ClInclude Include="Lib.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="World.hpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -170,6 +167,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\Box2D\Box2D\Box2D.h">
       <Filter>Fichiers sources\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -322,5 +322,13 @@
     <ResourceCompile Include="App.rc">
       <Filter>Fichiers de ressources</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\simple.frag">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="res\simple.vert">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
   </ItemGroup>
 </Project>

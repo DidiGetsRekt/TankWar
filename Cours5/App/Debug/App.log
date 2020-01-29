@@ -1,37 +1,133 @@
 ﻿  App.cpp
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(42): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(43): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(44): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(45): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(46): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(47): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(59): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(61): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(71): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\world.hpp(163): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\world.hpp(166): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(34): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(35): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(36): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(37): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(38): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(39): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(40): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(41): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(120): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(121): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(122): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(123): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(124): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(125): warning C4244: 'argument' : conversion de 'float' en 'sf::Uint8', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(229): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(230): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(252): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(319): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(322): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(345): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
           with
           [
               T=float
           ]
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(72): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(345): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(563): warning C4244: 'argument' : conversion de 'double' en 'unsigned int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(569): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
           with
           [
               T=float
           ]
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(73): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(757): warning C4244: 'argument' : conversion de 'double' en 'unsigned int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(758): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
           with
           [
               T=float
           ]
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(182): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(210): warning C4305: 'argument' : troncation de 'double' à 'float'
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(210): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(212): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(215): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(762): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(763): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
           with
           [
               T=float
           ]
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(223): warning C4244: 'argument' : conversion de 'double' en 'size_t', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(227): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-c:\workspace\hae_diwan_gp2\cours5\app\app.cpp(256): warning C4244: 'argument' : conversion de 'double' en 'size_t', perte possible de données
-  App.vcxproj -> C:\WORKSPACE\hae_diwan_gp2\Cours5\App\Debug\App.exe
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(780): warning C4244: 'argument' : conversion de 'double' en 'unsigned int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(782): warning C4244: 'argument' : conversion de 'double' en 'unsigned int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(783): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(787): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(788): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(792): warning C4244: 'argument' : conversion de 'double' en 'unsigned int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(793): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(797): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(798): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(802): warning C4244: 'argument' : conversion de 'double' en 'unsigned int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(803): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(807): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(808): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(812): warning C4244: 'argument' : conversion de 'double' en 'unsigned int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(813): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(817): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(818): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1264): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1265): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1266): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1267): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1268): warning C4018: '<' : incompatibilité signed/unsigned
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1345): warning C4244: 'argument' : conversion de 'double' en 'size_t', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1385): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1386): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1387): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1388): warning C4305: '=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1596): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1600): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1637): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1640): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1643): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1646): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1649): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1660): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1711): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1714): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1717): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1720): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1723): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1733): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1768): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1771): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1774): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1777): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1780): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1790): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1825): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1828): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1831): warning C4305: '+=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1834): warning C4305: '-=' : troncation de 'double' à 'float'
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1837): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1847): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+d:\workspace\hae_diwan_gp2\cours5\app\app.cpp(1937): warning C4018: '<' : incompatibilité signed/unsigned
+  App.vcxproj -> D:\Workspace\hae_diwan_gp2\Cours5\App\Debug\App.exe
